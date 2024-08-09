@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Aprendiendo a aprender</title>
+</head>
+
+<body>
+
+    <!--Diseño semantico del navegador del Sitio Web-->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="" target="_blank">Información de mi Tutoria</a>
+                </li>
+                <li>
+                    <a href="" target="_blank"> Formularios</a>
+                </li>
+                <li>
+                    <a href="" target="_blank">Definición</a>
+                </li>
+                <li>
+                    <a href="" target="_blank"> Metodos de Integración</a>
+                </li>
+                <li>
+                    <a href="" target="_blank">Aplicaciones de la Integral</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="present-proyect">
+        <div class="contenedor-present">
+            <div class="est_intro">
+                <h1>Aprendiendo a aprender.Las Matematicas divertidas</h1>
+                <h2>Presentación</h2>
+                <!-- Presentación del curso de cálculo Integral-->
+                <p>
+                    Hola!, me presento soy Melanie, una estudiante universitaria y comprendo su situción con las
+                    Matematicas, especialmente aquellos que estan haciendo una ingenieria con lo primero que nos
+                    encontramos en las ingenierias sin importar cual sea la especialidad, lo más común de todo es
+                    toparnos con cálculo. Te ayudare a alivianar las posibles dudas que talvez tengas. Sere tu tutora,
+                    quiero ser la persona que te saque de eso apuros.
+                </p>
+                <p>
+                    No soy una experta pero he estudiando desde hace muchos meses, ha sido un esfuerzo muy grande en
+                    tratar de explicar cosas algo complejas en palabras sencillas, espero que lo apreveches y
+                    bienvenido, aprenderemos todos juntos. Aprendiendo a aprender!
+                </p>
+
+            </div>
+            <!--Imagen de la presentación de la bienvendida al curso-->
+            <div class="contenedor-imagen">
+            </div>
+        </div>
+
+        <div class="contenedor-present contenedor-lista">
+            <div class="lis_dis">
+                <h3 class="titulo"> Temario del curso de Cálculo Integral</h3>
+                <!---Lista No ordenada-->
+                <ul>
+                    <li>Definición</li>
+                    <li>Integrales Inmediatas</li>
+                    <li>Integrales de diferenciales trigonometricas</li>
+                    <li>Métodos de Integración
+                        <ol>
+                            <li>Sustitución Trigonometrica</li>
+                            <li>Integración por partes</li>
+                            <li>Integración por fracciones parciales</li>
+                            <li>Integración por Sustitución de una nueva variable</li>
+                        </ol>
+                    </li>
+                    <li>Aplicaciones de las Integrales</li>
+                </ul>
+            </div>
+
+            <div class="lis_dis ">
+                <!---Lista ordenada-->
+                <h3 class="titulo">Formularios a utilizar</h3><br><br>
+                <ol>
+                    <li>Formulación Algebraica</li>
+                    <li>Formulación de Derivadas</li>
+                    <li>Formulación de Integrales</li>
+                    <li>Formulación de logaritmos</li>
+                </ol>
+            </div>
+
+        </div>
+
+
+        <div class="Cuestionario">
+            <!--Formulario-->
+            <form action="">
+                <h2 class="titulo">Con toda honestidad,¿qué tema o temas de álgebra se te dificulta
+                    más?</h2>
+    
+                <label id="title_tem" for="Temario">Temario</label>
+                <select id="Temario" name="temario">
+                    <option value="Factorizacion">Factorizacion</option>
+                    <option value="Exponentes">Exponentes</option>
+                    <option value="Teorema del Binomio">Teorema del binomio</option>
+                    <option value="Racionalizacion">Racionalizacion</option>
+                </select>
+
+                <label id="title_tem" for="Otra">Alguna otra materia</label>
+                <input type="text" id="Otra" name="Otra">
+                <input type="button" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+</html>
